@@ -12,7 +12,7 @@ public class DragAndDropTest {
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
-        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = true;
     }
     @Test
     public void dragAndDropBlocks(){
